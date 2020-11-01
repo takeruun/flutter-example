@@ -1,0 +1,69 @@
+PODS:
+  - background_fetch (0.6.0):
+    - Flutter
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - Flutter (1.0.0)
+  - flutter_background_geolocation (1.10.1):
+    - CocoaLumberjack (~> 3.6.0)
+    - Flutter
+  - flutter_call_kit (0.0.1):
+    - Flutter
+  - flutter_callkeep (0.1.8):
+    - Flutter
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps (< 3.10)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - location (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - background_fetch (from `.symlinks/plugins/background_fetch/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_background_geolocation (from `.symlinks/plugins/flutter_background_geolocation/ios`)
+  - flutter_call_kit (from `.symlinks/plugins/flutter_call_kit/ios`)
+  - flutter_callkeep (from `.symlinks/plugins/flutter_callkeep/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  background_fetch:
+    :path: ".symlinks/plugins/background_fetch/ios"
+  Flutter:
+    :path: Flutter
+  flutter_background_geolocation:
+    :path: ".symlinks/plugins/flutter_background_geolocation/ios"
+  flutter_call_kit:
+    :path: ".symlinks/plugins/flutter_call_kit/ios"
+  flutter_callkeep:
+    :path: ".symlinks/plugins/flutter_callkeep/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+
+SPEC CHECKSUMS:
+  background_fetch: 9221ccc02b41aff8a52b2090d9f791c5ed82eaee
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_background_geolocation: 2a69ce11e28af6d35954654d0e21577682f42c93
+  flutter_call_kit: 0598f2eec54579aa00b53fb68a622ccdb08fe4fe
+  flutter_callkeep: 340717a2440e2a54dda6f61faa34491b6a419c3f
+  google_maps_flutter: c7f9c73576de1fbe152a227bfd6e6c4ae8088619
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.0.beta.2

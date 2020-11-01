@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "07ed815ab2c4bb55d19c3297ede1745c"
+build_time: [1602908689, 359117000]
+inputs:
+  "/Users/take/AndroidStudioProjects/example/ios/example/CallDirectoryHandler.swift": [1602908684, 310073122]

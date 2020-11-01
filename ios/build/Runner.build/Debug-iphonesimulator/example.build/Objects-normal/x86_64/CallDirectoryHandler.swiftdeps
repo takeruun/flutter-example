@@ -1,0 +1,318 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CallDirectoryHandler"
+provides-nominal:
+- "7example20CallDirectoryHandlerC"
+provides-member:
+- ["7example20CallDirectoryHandlerC", ""]
+provides-dynamic-lookup:
+- "addAllBlockingPhoneNumbers"
+- "addAllIdentificationPhoneNumbers"
+- "addOrRemoveIncrementalBlockingPhoneNumbers"
+- "addOrRemoveIncrementalIdentificationPhoneNumbers"
+- "beginRequest"
+- "requestFailed"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "CXCallDirectoryExtensionContext"
+- "CXCallDirectoryExtensionContextDelegate"
+- "CXCallDirectoryPhoneNumber"
+- "CXCallDirectoryProvider"
+- "CallDirectoryHandler"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- !private "addAllBlockingPhoneNumbers"
+- !private "addAllIdentificationPhoneNumbers"
+- !private "addOrRemoveIncrementalBlockingPhoneNumbers"
+- !private "addOrRemoveIncrementalIdentificationPhoneNumbers"
+- !private "zip"
+depends-member:
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAllBlockingPhoneNumbers"]
+- !private ["s7CVarArgP", "addAllIdentificationPhoneNumbers"]
+- !private ["s7CVarArgP", "addBlockingEntry"]
+- !private ["s7CVarArgP", "addIdentificationEntry"]
+- !private ["s7CVarArgP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["s7CVarArgP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- !private ["s7CVarArgP", "beginRequest"]
+- !private ["s7CVarArgP", "completeRequest"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "isIncremental"]
+- !private ["s7CVarArgP", "removeBlockingEntry"]
+- !private ["s7CVarArgP", "removeIdentificationEntry"]
+- ["s7CVarArgP", "requestFailed"]
+- ["s7CVarArgP", "requestFailedForExtensionContext"]
+- !private ["s7CVarArgP", "zip"]
+- !private ["So31CXCallDirectoryExtensionContextC", "addBlockingEntry"]
+- !private ["So31CXCallDirectoryExtensionContextC", "addIdentificationEntry"]
+- !private ["So31CXCallDirectoryExtensionContextC", "completeRequest"]
+- !private ["So31CXCallDirectoryExtensionContextC", "delegate"]
+- !private ["So31CXCallDirectoryExtensionContextC", "isIncremental"]
+- !private ["So31CXCallDirectoryExtensionContextC", "removeBlockingEntry"]
+- !private ["So31CXCallDirectoryExtensionContextC", "removeIdentificationEntry"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", ""]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "addAllBlockingPhoneNumbers"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "addAllIdentificationPhoneNumbers"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "beginRequest"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "init"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "requestFailed"]
+- ["So39CXCallDirectoryExtensionContextDelegateP", "requestFailedForExtensionContext"]
+- !private ["So39CXCallDirectoryExtensionContextDelegateP", "zip"]
+- ["So23CXCallDirectoryProviderC", "CXCallDirectoryExtensionContext"]
+- !private ["So23CXCallDirectoryProviderC", "CXCallDirectoryPhoneNumber"]
+- ["So23CXCallDirectoryProviderC", "Error"]
+- ["So23CXCallDirectoryProviderC", ""]
+- ["So23CXCallDirectoryProviderC", "addAllBlockingPhoneNumbers"]
+- ["So23CXCallDirectoryProviderC", "addAllIdentificationPhoneNumbers"]
+- ["So23CXCallDirectoryProviderC", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- ["So23CXCallDirectoryProviderC", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- ["So23CXCallDirectoryProviderC", "beginRequest"]
+- ["So23CXCallDirectoryProviderC", "init"]
+- ["So23CXCallDirectoryProviderC", "requestFailed"]
+- ["So23CXCallDirectoryProviderC", "requestFailedForExtensionContext"]
+- !private ["So23CXCallDirectoryProviderC", "zip"]
+- ["7example20CallDirectoryHandlerC", "CXCallDirectoryExtensionContext"]
+- !private ["7example20CallDirectoryHandlerC", "CXCallDirectoryPhoneNumber"]
+- ["7example20CallDirectoryHandlerC", "Error"]
+- ["7example20CallDirectoryHandlerC", ""]
+- !private ["7example20CallDirectoryHandlerC", "addAllBlockingPhoneNumbers"]
+- !private ["7example20CallDirectoryHandlerC", "addAllIdentificationPhoneNumbers"]
+- !private ["7example20CallDirectoryHandlerC", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["7example20CallDirectoryHandlerC", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- ["7example20CallDirectoryHandlerC", "beginRequest"]
+- ["7example20CallDirectoryHandlerC", "deinit"]
+- ["7example20CallDirectoryHandlerC", "init"]
+- ["7example20CallDirectoryHandlerC", "requestFailed"]
+- ["7example20CallDirectoryHandlerC", "requestFailedForExtensionContext"]
+- !private ["7example20CallDirectoryHandlerC", "zip"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAllBlockingPhoneNumbers"]
+- !private ["s28CustomDebugStringConvertibleP", "addAllIdentificationPhoneNumbers"]
+- !private ["s28CustomDebugStringConvertibleP", "addBlockingEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "addIdentificationEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["s28CustomDebugStringConvertibleP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- !private ["s28CustomDebugStringConvertibleP", "beginRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "completeRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "isIncremental"]
+- !private ["s28CustomDebugStringConvertibleP", "removeBlockingEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "removeIdentificationEntry"]
+- ["s28CustomDebugStringConvertibleP", "requestFailed"]
+- ["s28CustomDebugStringConvertibleP", "requestFailedForExtensionContext"]
+- !private ["s28CustomDebugStringConvertibleP", "zip"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAllBlockingPhoneNumbers"]
+- !private ["s23CustomStringConvertibleP", "addAllIdentificationPhoneNumbers"]
+- !private ["s23CustomStringConvertibleP", "addBlockingEntry"]
+- !private ["s23CustomStringConvertibleP", "addIdentificationEntry"]
+- !private ["s23CustomStringConvertibleP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["s23CustomStringConvertibleP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- !private ["s23CustomStringConvertibleP", "beginRequest"]
+- !private ["s23CustomStringConvertibleP", "completeRequest"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "isIncremental"]
+- !private ["s23CustomStringConvertibleP", "removeBlockingEntry"]
+- !private ["s23CustomStringConvertibleP", "removeIdentificationEntry"]
+- ["s23CustomStringConvertibleP", "requestFailed"]
+- ["s23CustomStringConvertibleP", "requestFailedForExtensionContext"]
+- !private ["s23CustomStringConvertibleP", "zip"]
+- ["SQ", ""]
+- !private ["SQ", "addAllBlockingPhoneNumbers"]
+- !private ["SQ", "addAllIdentificationPhoneNumbers"]
+- !private ["SQ", "addBlockingEntry"]
+- !private ["SQ", "addIdentificationEntry"]
+- !private ["SQ", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["SQ", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- !private ["SQ", "beginRequest"]
+- !private ["SQ", "completeRequest"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "isIncremental"]
+- !private ["SQ", "removeBlockingEntry"]
+- !private ["SQ", "removeIdentificationEntry"]
+- ["SQ", "requestFailed"]
+- ["SQ", "requestFailedForExtensionContext"]
+- !private ["SQ", "zip"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", ""]
+- !private ["SH", "addAllBlockingPhoneNumbers"]
+- !private ["SH", "addAllIdentificationPhoneNumbers"]
+- !private ["SH", "addBlockingEntry"]
+- !private ["SH", "addIdentificationEntry"]
+- !private ["SH", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["SH", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- !private ["SH", "beginRequest"]
+- !private ["SH", "completeRequest"]
+- !private ["SH", "delegate"]
+- !private ["SH", "isIncremental"]
+- !private ["SH", "removeBlockingEntry"]
+- !private ["SH", "removeIdentificationEntry"]
+- ["SH", "requestFailed"]
+- ["SH", "requestFailedForExtensionContext"]
+- !private ["SH", "zip"]
+- ["So8NSCodingP", ""]
+- ["So18NSExtensionContextC", ""]
+- !private ["So18NSExtensionContextC", "addBlockingEntry"]
+- !private ["So18NSExtensionContextC", "addBlockingEntryWithNextSequentialPhoneNumber"]
+- !private ["So18NSExtensionContextC", "addIdentificationEntry"]
+- !private ["So18NSExtensionContextC", "addIdentificationEntryWithNextSequentialPhoneNumber"]
+- !private ["So18NSExtensionContextC", "completeRequest"]
+- !private ["So18NSExtensionContextC", "completeRequestReturningItems"]
+- !private ["So18NSExtensionContextC", "completeRequestWithCompletionHandler"]
+- !private ["So18NSExtensionContextC", "delegate"]
+- !private ["So18NSExtensionContextC", "isIncremental"]
+- !private ["So18NSExtensionContextC", "removeBlockingEntry"]
+- !private ["So18NSExtensionContextC", "removeBlockingEntryWithPhoneNumber"]
+- !private ["So18NSExtensionContextC", "removeIdentificationEntry"]
+- !private ["So18NSExtensionContextC", "removeIdentificationEntryWithPhoneNumber"]
+- ["So26NSExtensionRequestHandlingP", "CXCallDirectoryExtensionContext"]
+- !private ["So26NSExtensionRequestHandlingP", "CXCallDirectoryPhoneNumber"]
+- ["So26NSExtensionRequestHandlingP", "Error"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "addAllBlockingPhoneNumbers"]
+- ["So26NSExtensionRequestHandlingP", "addAllIdentificationPhoneNumbers"]
+- ["So26NSExtensionRequestHandlingP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- ["So26NSExtensionRequestHandlingP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- ["So26NSExtensionRequestHandlingP", "beginRequest"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "requestFailed"]
+- ["So26NSExtensionRequestHandlingP", "requestFailedForExtensionContext"]
+- !private ["So26NSExtensionRequestHandlingP", "zip"]
+- ["So8NSObjectC", "CXCallDirectoryExtensionContext"]
+- !private ["So8NSObjectC", "CXCallDirectoryPhoneNumber"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addAllBlockingPhoneNumbers"]
+- ["So8NSObjectC", "addAllIdentificationPhoneNumbers"]
+- !private ["So8NSObjectC", "addBlockingEntry"]
+- !private ["So8NSObjectC", "addBlockingEntryWithNextSequentialPhoneNumber"]
+- !private ["So8NSObjectC", "addIdentificationEntry"]
+- !private ["So8NSObjectC", "addIdentificationEntryWithNextSequentialPhoneNumber"]
+- ["So8NSObjectC", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- ["So8NSObjectC", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- ["So8NSObjectC", "beginRequest"]
+- ["So8NSObjectC", "beginRequestWithExtensionContext"]
+- !private ["So8NSObjectC", "completeRequest"]
+- !private ["So8NSObjectC", "completeRequestReturningItems"]
+- !private ["So8NSObjectC", "completeRequestWithCompletionHandler"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isIncremental"]
+- !private ["So8NSObjectC", "removeBlockingEntry"]
+- !private ["So8NSObjectC", "removeBlockingEntryWithPhoneNumber"]
+- !private ["So8NSObjectC", "removeIdentificationEntry"]
+- !private ["So8NSObjectC", "removeIdentificationEntryWithPhoneNumber"]
+- ["So8NSObjectC", "requestFailed"]
+- ["So8NSObjectC", "requestFailedForExtensionContext"]
+- !private ["So8NSObjectC", "zip"]
+- ["So8NSObjectP", "CXCallDirectoryExtensionContext"]
+- !private ["So8NSObjectP", "CXCallDirectoryPhoneNumber"]
+- ["So8NSObjectP", "Error"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addAllBlockingPhoneNumbers"]
+- ["So8NSObjectP", "addAllIdentificationPhoneNumbers"]
+- !private ["So8NSObjectP", "addBlockingEntry"]
+- !private ["So8NSObjectP", "addBlockingEntryWithNextSequentialPhoneNumber"]
+- !private ["So8NSObjectP", "addIdentificationEntry"]
+- !private ["So8NSObjectP", "addIdentificationEntryWithNextSequentialPhoneNumber"]
+- ["So8NSObjectP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- ["So8NSObjectP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- ["So8NSObjectP", "beginRequest"]
+- ["So8NSObjectP", "beginRequestWithExtensionContext"]
+- !private ["So8NSObjectP", "completeRequest"]
+- !private ["So8NSObjectP", "completeRequestReturningItems"]
+- !private ["So8NSObjectP", "completeRequestWithCompletionHandler"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isIncremental"]
+- !private ["So8NSObjectP", "removeBlockingEntry"]
+- !private ["So8NSObjectP", "removeBlockingEntryWithPhoneNumber"]
+- !private ["So8NSObjectP", "removeIdentificationEntry"]
+- !private ["So8NSObjectP", "removeIdentificationEntryWithPhoneNumber"]
+- ["So8NSObjectP", "requestFailed"]
+- ["So8NSObjectP", "requestFailedForExtensionContext"]
+- !private ["So8NSObjectP", "zip"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "makeIterator"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAllBlockingPhoneNumbers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAllIdentificationPhoneNumbers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addBlockingEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addIdentificationEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completeRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isIncremental"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeBlockingEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeIdentificationEntry"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestFailed"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestFailedForExtensionContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zip"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAllBlockingPhoneNumbers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAllIdentificationPhoneNumbers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addBlockingEntry"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addIdentificationEntry"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addOrRemoveIncrementalBlockingPhoneNumbers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addOrRemoveIncrementalIdentificationPhoneNumbers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "beginRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "completeRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isIncremental"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeBlockingEntry"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeIdentificationEntry"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestFailed"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestFailedForExtensionContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "zip"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "So31CXCallDirectoryExtensionContextC"
+- "So39CXCallDirectoryExtensionContextDelegateP"
+- "So23CXCallDirectoryProviderC"
+- "7example20CallDirectoryHandlerC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So18NSExtensionContextC"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "ST"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CallKit.framework/Headers/CallKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c0d5e7dfc0755c210cadca6de3c60bad"
