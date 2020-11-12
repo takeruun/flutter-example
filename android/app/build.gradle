@@ -20,10 +20,11 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
-def google_maps_api_key = localProperties.getProperty('googe_maps_api_key')
+def google_map_api_key = localProperties.getProperty('google_map_api_key')
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
@@ -44,7 +45,8 @@ android {
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-        manifestPlaceholders = [google_maps_api_key: googe_maps_api_key]
+        manifestPlaceholders = [google_map_api_key: google_map_api_key]
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -62,4 +64,5 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation platform('com.google.firebase:firebase-bom:26.0.0')
 }
