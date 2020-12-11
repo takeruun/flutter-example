@@ -138,7 +138,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
               },
             ),
             RaisedButton(
-              child: Text('firebase page'),
+              child: Text('Sign Page'),
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => SignInPage()));
