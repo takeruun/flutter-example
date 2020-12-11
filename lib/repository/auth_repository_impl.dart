@@ -11,6 +11,11 @@ class AuthRepositoryImpl implements AuthRepository {
   AuthRepositoryImpl(this._dataSource);
 
   @override
+  Future<Result<User>> getCurrentUser() {
+    return Result.guardFuture(() => _dataSource.getCurrentUser());
+  }
+
+  @override
   Future<Result<User>> googleSignIn() {
     return Result.guardFuture(() => _dataSource.googleSignIn());
   }

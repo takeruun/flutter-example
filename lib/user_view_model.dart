@@ -11,7 +11,14 @@ final userViewModelProvider = ChangeNotifierProvider(
 class UserViewModel extends ChangeNotifier {
   final AuthRepository _repository;
 
-  UserViewModel(this._repository);
+  UserViewModel(this._repository) {
+    _repository.getCurrentUser().then((result) {
+      result.ifSuccess((data) {
+        _user = data;
+        notifyListeners();
+      });
+    });
+  }
 
   firebase.User _user;
   firebase.User get user => _user;

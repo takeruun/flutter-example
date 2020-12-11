@@ -10,6 +10,12 @@ class AuthDataSourceImpl implements AuthDataSource {
   AuthDataSourceImpl(this._firebaseAuth);
 
   @override
+  Future<User> getCurrentUser() async {
+    final currentUser = await _firebaseAuth.currentUser;
+    return currentUser;
+  }
+
+  @override
   Future<User> googleSignIn() async {
     final account = await GoogleSignIn().signIn();
     if (account == null) {

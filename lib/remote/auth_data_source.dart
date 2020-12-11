@@ -1,6 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
 abstract class AuthDataSource {
+  Future<User> getCurrentUser();
+
   Future<User> googleSignIn();
 
   Future<void> signOut();
