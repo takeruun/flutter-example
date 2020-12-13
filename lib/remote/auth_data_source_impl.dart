@@ -1,7 +1,9 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import 'package:example/model/source.dart' as user;
 import 'auth_data_source.dart';
 
 class AuthDataSourceImpl implements AuthDataSource {
@@ -42,5 +44,18 @@ class AuthDataSourceImpl implements AuthDataSource {
       debugPrint(error.toString());
       throw error;
     });
+  }
+
+  @override
+  Future<List<user.Source>> getUsers() async {
+    List<user.Source> data;
+    QuerySnapshot docSnapshot =
+        await FirebaseFirestore.instance.collection("users").get();
+
+    data = docSnapshot.docs
+        .map((element) => user.Source.fromJson(element.data()))
+        .toList();
+
+    return data;
   }
 }

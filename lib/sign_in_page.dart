@@ -34,6 +34,41 @@ class Body extends HookWidget {
           RaisedButton(
             child: Text('google logout'),
             onPressed: () => context.read(userViewModelProvider).signOut(),
+          ),
+          RaisedButton(
+            child: Text('get Users'),
+            onPressed: () async {
+              await context.read(userViewModelProvider).getUsers();
+              final _users = context.read(userViewModelProvider).users;
+              showDialog(
+                barrierDismissible: true,
+                context: context,
+                builder: (BuildContext context) {
+                  return SimpleDialog(
+                    title: Text('ユーザ選択'),
+                    children: _users
+                        .map(
+                          (user) => SimpleDialogOption(
+                            child: ListTile(
+                              leading: CircleAvatar(
+                                backgroundColor: Colors.orange.shade200,
+                                child: Text(
+                                  user.name,
+                                  style: TextStyle(color: Colors.black),
+                                ),
+                              ),
+                              title: Text(user.email),
+                            ),
+                            onPressed: () {
+                              Navigator.pop(context, user.uid);
+                            },
+                          ),
+                        )
+                        .toList(),
+                  );
+                },
+              );
+            },
           )
         ],
       );

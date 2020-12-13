@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart' as firebase;
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/all.dart';
 
+import 'package:example/model/source.dart';
 import 'package:example/repository/auth_repository.dart';
 import 'package:example/provider/auth_repository_provider.dart';
 
@@ -23,6 +24,9 @@ class UserViewModel extends ChangeNotifier {
   firebase.User _user;
   firebase.User get user => _user;
 
+  List<Source> _users;
+  List<Source> get users => _users;
+
   bool get isAuthenicated => _user != null;
 
   Future<void> googleSignIn() {
@@ -42,6 +46,15 @@ class UserViewModel extends ChangeNotifier {
             notifyListeners();
           },
           failure: (_) => result);
+    });
+  }
+
+  Future<void> getUsers() {
+    return _repository.getUsers().then((result) {
+      result.ifSuccess((data) {
+        _users = data;
+        notifyListeners();
+      });
     });
   }
 }
