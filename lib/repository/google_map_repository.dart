@@ -1,9 +1,8 @@
-import 'package:example/model/result.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-abstract class GoogleMapRepository {
-  Future<Result<void>> onMapCreated(GoogleMapController controller);
+import 'package:example/model/result.dart';
 
-  Future<Result<void>> cameraUpdate(
-      LatLng latLng, GoogleMapController controller);
+abstract class GoogleMapRepository {
+  Future<Result<Map<String, dynamic>>> getRoute(
+      LatLng origin, LatLng destination);
 }

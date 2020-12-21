@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:example/model/result.dart';
 import 'package:example/remote/auth_data_source.dart';
-import 'package:flutter_riverpod/all.dart';
 
 import 'package:example/model/source.dart' as user;
 import 'auth_repository.dart';
