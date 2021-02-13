@@ -3,8 +3,10 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/all.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+import 'package:example/provider/app_shared_preferences_provider.dart';
 import 'package:example/provider/location_list_provider.dart';
 import 'package:example/google_map_view_model.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class GoogleMapPage extends StatelessWidget {
   @override

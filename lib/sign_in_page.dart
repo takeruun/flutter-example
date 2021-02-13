@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'package:example/user_view_model.dart';
+import 'package:example/google_map_view_model.dart';
 
 class SignInPage extends StatelessWidget {
   @override
@@ -60,7 +61,10 @@ class Body extends HookWidget {
                               title: Text(user.email),
                             ),
                             onPressed: () {
-                              Navigator.pop(context, user.uid);
+                              context
+                                  .read(googleMapViewModel)
+                                  .setTargetUserUid(user.uid);
+                              Navigator.pop(context);
                             },
                           ),
                         )
